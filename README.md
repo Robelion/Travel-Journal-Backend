@@ -20,7 +20,7 @@ A list of how your app addresses each of the requirements (iOS / Backend):
 
   SQLAlchemy models/Data Modelling / API:
 
-    I used classes to create a table for User, Trip, Events, and Categories. I also have one-to-many and many-to-many             relationships between these classes(tables).
+    I used classes to create a table for User, Trip, Events, and Categories. I also have one-to-many and many-to-many relationships between these classes(tables).
 
   At least one GET, POST, and DELETE request route / API routes:
 
@@ -28,11 +28,11 @@ A list of how your app addresses each of the requirements (iOS / Backend):
 
   Deploy to Google Cloud:
   
-    I used docker to create images and pushed them to docker hub and then pulled them using docker pull in order to deploy it     to the server so that I could integrate with iOS.
+    I used docker to create images and pushed them to docker hub and then pulled them using docker pull in order to deploy it to the server so that I could integrate with iOS.
 
   AutoLayout using NSLayoutConstraint or SnapKit
 
-    We used SnapKit and NSLayoutConstraint for everything we implemented from labels to buttons to collection views to table       views.
+    We used SnapKit and NSLayoutConstraint for everything we implemented from labels to buttons to collection views to table views.
 
   At least one UICollectionView or UITableView
 
@@ -40,9 +40,9 @@ A list of how your app addresses each of the requirements (iOS / Backend):
 
   Some form of navigation (UINavigationController or UITabBarController) to navigate between screens
     
-    We have multiple screens that users can navigate to in order to edit their trips, add to their trips, and add to their         timelines.
+    We have multiple screens that users can navigate to in order to edit their trips, add to their trips, and add to their timelines.
   
   Integration with an API - this API must provide some meaningful value to your app. For example, if you’re creating a music     app, you could use the Apple Music API. Most of you will integrate with an API written by students in the backend course.
     
-    We have NetworkManager set up to get and store code from the API that backend wrote. Unfortunately, Backend's                 implementation differed from what we had implemented, so while we have Network Manager set up with all the proper             functions, it does not actually connect with Backend.
+    We have NetworkManager set up to get and store code from the API that backend wrote. Unfortunately, Backend's implementation differed from what we had implemented, so while we have Network Manager set up with all the proper functions, it does not actually connect with Backend.
 
